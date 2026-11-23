@@ -4,8 +4,9 @@ plugins {
 
 android {
     namespace = "com.example.viado_appdev"
-    compileSdk {
-        version = release(37)
+    compileSdk = 37
+        buildFeatures {
+            viewBinding = true
     }
 
     defaultConfig {
