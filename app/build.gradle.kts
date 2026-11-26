@@ -11,6 +11,15 @@ android {
     defaultConfig {
         applicationId = "com.example.viado_appdev"
         minSdk = 25
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    defaultConfig {
+        applicationId = "com.example.viado_appdev"
+        minSdk = 25
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
